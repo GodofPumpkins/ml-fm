@@ -1,5 +1,6 @@
 # Takes a directory full of DX7 sysex patches and outputs a compacted unique list of voices
 import os, sys, hashlib
+import mido
 
 from collections import OrderedDict
 
@@ -13,7 +14,7 @@ class Dictlist(dict):
 
 def get_all_syx_files():
     sysexs = []
-    for path, directories, files in os.walk('patches250'):
+    for path, directories, files in os.walk('synlib'):
         files.sort()
         for file in files:
             d = os.path.join(path, file)
@@ -50,34 +51,34 @@ def parse_8208b(buf):
 
 
 
-def sysex_message(patch_number, channel):
-    import dx7
-    # get the 155 bytes for the patch number from the C extension
-    patch_data = dx7.unpack(patch_number)
-    # generate the twos complement checksum for the patch data 
-    # from these dudes fighting w/ each other about who has the best programming skills sigh 
-    # https://yamahamusicians.com/forum/viewtopic.php?t=6864
-    check = ~sum(patch_data) + 1 & 0x7F
+# def sysex_message(patch_number, channel):
+#     import dx7
+#     # get the 155 bytes for the patch number from the C extension
+#     patch_data = dx7.unpack(patch_number)
+#     # generate the twos complement checksum for the patch data 
+#     # from these dudes fighting w/ each other about who has the best programming skills sigh 
+#     # https://yamahamusicians.com/forum/viewtopic.php?t=6864
+#     check = ~sum(patch_data) + 1 & 0x7F
 
-    # Generate the sysex message
-    byte_count = 155 # always 155 bytes of patch information (the operator-on message is only for live mode)
-    msb = byte_count / 127
-    lsb = (byte_count % 127) - 1
-    return [0x43, channel, 0, msb, lsb] + patch_data + [check]
+#     # Generate the sysex message
+#     byte_count = 155 # always 155 bytes of patch information (the operator-on message is only for live mode)
+#     msb = byte_count / 127
+#     lsb = (byte_count % 127) - 1
+#     return [0x43, channel, 0, msb, lsb] + patch_data + [check]
 
-#_port = mido.open_output()
-def update_voice(patch_number, channel):
-    sysex = sysex_message(patch_number, channel)
-    msg = mido.Message('sysex', data=sysex)
-    #_port.send(program)
-    _port.send(msg)
+# #_port = mido.open_output()
+# def update_voice(patch_number, channel):
+#     sysex = sysex_message(patch_number, channel)
+#     msg = mido.Message('sysex', data=sysex)
+#     #_port.send(program)
+#     _port.send(msg)
 
-def play_note(note, channel):
-    msg = mido.Message('note_on', note=note, channel=channel)
-    _port.send(msg)
-def stop_note(note,channel):
-    msg = mido.Message('note_off',note=note, channel = channel, velocity=0)
-    _port.send(msg)
+# def play_note(note, channel):
+#     msg = mido.Message('note_on', note=note, channel=channel)
+#     _port.send(msg)
+# def stop_note(note,channel):
+#     msg = mido.Message('note_off',note=note, channel = channel, velocity=0)
+#     _port.send(msg)
 
 def parse_all():
     all_files = get_all_syx_files()
@@ -112,7 +113,7 @@ def unpack_packed_patch(p):
     # Input is a 128 byte thing from compact.bin
     # Output is a 156 byte thing that the synth knows about
     o = [0]*156
-    for op in xrange(6):
+    for op in range(6):
         o[op*21:op*21 + 11] = p[op*17:op*17+11]
         leftrightcurves = p[op*17+11]
         o[op * 21 + 11] = leftrightcurves & 3
@@ -160,7 +161,7 @@ def unpack_packed_patch(p):
         126, 126, 126, 126, 126, 126, 126, 126, 126, 126, # name
         127 # operator on/off
     ]
-    for i in xrange(156):
+    for i in range(156):
         if(o[i] > maxes[i]): o[i] = maxes[i]
         if(o[i] < 0): o[i] = 0
     return o
@@ -170,7 +171,7 @@ def convert_compact_to_unpacked():
     f = bytearray(open("compact.bin").read())
     o = open("unpacked.bin", "w")
     num_patches = len(f)/128
-    for patch in xrange(num_patches):
+    for patch in range(num_patches):
         patch_data = f[patch*128:patch*128+128]
         unpacked = unpack_packed_patch(patch_data)
         o.write(bytearray(unpacked))
