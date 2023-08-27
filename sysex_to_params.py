@@ -2,5 +2,5 @@ import mido
 import pedalboard
 
 def sysex_to_params():
-    params: dict
+    params: dict = []
     return params
