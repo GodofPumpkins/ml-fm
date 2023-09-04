@@ -1,13 +1,14 @@
 from pedalboard import Pedalboard, Reverb, load_plugin
 from pedalboard.io import AudioFile
 from mido import Message # not part of Pedalboard, but convenient!
+import mido
 from functions.sysex_unpack import Param
 
 #initial values: eg level 123 at max, 4 at min
 #eg rate all at max
 #op1 level at max, rest at 0
 
-
+sample_rate = 44100
 
 # Load a VST3 or Audio Unit plugin from a known path on disk:
 instrument = load_plugin("Dexed.vst3")
@@ -175,17 +176,35 @@ paramDict = {
 }
 
 # instrument.show_editor()
-print(instrument.op1_eg_level_1)
-instrument.op1_eg_level_1.raw_value = 0
-instrument.op1_eg_level_2.raw_value = 0
-print(instrument.op1_eg_level_1)
-print(instrument.op1_eg_level_2)
+# print(instrument.op1_eg_level_1)
+# instrument.op1_eg_level_1.raw_value = 0
+# instrument.cutoff = paramDict.get("cutoff").maximum
+# instrument.op1_eg_level_1 = 0.5
+# print(instrument.op1_eg_level_1)
+
+sysex_mesage = mido.read_syx_file("./synlib/SynLib_001.syx")
+
+instrument(
+  sysex_mesage,
+  duration=5, # seconds
+  sample_rate=sample_rate,
+)
+
+
+
+# print(instrument.op1_eg_level_2)
 # instrument.cutoff = 0.5
 # instrument.op1_eg_rate_2.raw_value = 1
 # instrument.op1_eg_rate_3.raw_value = 1
 # instrument.op1_eg_rate_4.raw_value = 1
 # instrument.show_editor()
-
+program_message = [Message("program_change", program=10)]
+instrument(
+  program_message,
+  duration=5, # seconds
+  sample_rate=sample_rate,
+)
+instrument.show_editor()
 # for i, (k, v) in enumerate(paramDict.items()):
 	# instrument.k = v.value
 	# if( (type(v.value) == float) or ( type(v.value) == int )):
@@ -219,9 +238,11 @@ print(instrument.op1_eg_level_2)
 # effect.feedback = 100
 
 # Render some audio by passing MIDI to an instrument:
-sample_rate = 44100
+
+message = [Message("note_on", note=60, velocity=100), Message("note_off", note=60, time=5)]
+
 audio = instrument(
-  [Message("note_on", note=60, velocity=100), Message("note_off", note=60, time=5)],
+  message,
   duration=5, # seconds
   sample_rate=sample_rate,
 )

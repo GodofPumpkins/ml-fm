@@ -1,0 +1,32 @@
+I'm currently using Dexed and trying to load a cartridge from a sysex file, then send a program change message to select one of the programs in the cartridge. Both of these messages are being sent as mido Message objects. The sysex is working fine, but when calling show_editor() the program change messages don't seem to do anything. I don't think this is an issue in Dexed because I'm able to send program changes to it in Reaper and have it change program with no issues. Is program change currently implemented in pedalboard?
+
+
+https://github.com/spotify/pedalboard/issues/new
+
+
+
+from pedalboard import Pedalboard, load_plugin
+from pedalboard.io import AudioFile
+from mido import Message # not part of Pedalboard, but convenient!
+import mid
+
+sample_rate = 44100
+
+# Load a VST3 or Audio Unit plugin from a known path on disk:
+instrument = load_plugin("Dexed.vst3")
+
+sysex_mesage = mido.read_syx_file("./synlib/SynLib_001.syx")
+
+instrument(
+  sysex_mesage,
+  duration=5, # seconds
+  sample_rate=sample_rate,
+)
+
+program_message = [Message("program_change", program=10)]
+instrument(
+  program_message,
+  duration=5, # seconds
+  sample_rate=sample_rate,
+)
+instrument.show_editor()

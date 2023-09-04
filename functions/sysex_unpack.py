@@ -355,7 +355,7 @@ if __name__ == "__main__":
 	main()
 
 class Param:
-	def __init__(self, name = "", value = 0.0, maximum = 1.0, minimum = 0.0, increment = 1.0 ):
+	def __init__(self, name = "", value = 0.0, minimum = 0.0, maximum = 1.0, increment = 1.0 ):
 		self.name = name
 		self.value = value
 		self.increment = increment
