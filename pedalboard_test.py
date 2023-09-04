@@ -11,7 +11,8 @@ from functions.sysex_unpack import Param
 sample_rate = 44100
 
 # Load a VST3 or Audio Unit plugin from a known path on disk:
-instrument = load_plugin("Dexed.vst3")
+# instrument = load_plugin("Dexed.vst3")
+instrument = load_plugin("Dexed.so")
 # print(instrument.cutoff)
 # instrument.show_editor()
 # effect = load_plugin("ValhallaSupermassive.vst3")
