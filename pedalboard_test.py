@@ -11,8 +11,10 @@ from functions.sysex_unpack import Param
 sample_rate = 44100
 
 # Load a VST3 or Audio Unit plugin from a known path on disk:
-# instrument = load_plugin("Dexed.vst3")
-instrument = load_plugin("Dexed.so")
+print("here")
+instrument = load_plugin("Dexed.vst3")
+print("there")
+# instrument = load_plugin("Dexed.so")
 # print(instrument.cutoff)
 # instrument.show_editor()
 # effect = load_plugin("ValhallaSupermassive.vst3")
@@ -177,19 +179,26 @@ paramDict = {
 }
 
 # instrument.show_editor()
-# print(instrument.op1_eg_level_1)
+print(instrument.op1_eg_level_1)
 # instrument.op1_eg_level_1.raw_value = 0
 # instrument.cutoff = paramDict.get("cutoff").maximum
-# instrument.op1_eg_level_1 = 0.5
-# print(instrument.op1_eg_level_1)
+instrument.op1_eg_level_1 = 0
+instrument.op1_eg_level_2 = 0
+instrument.op1_eg_level_3 = 0
+instrument.op1_eg_level_4 = 0
+instrument.op2_eg_level_1 = 0
+instrument.op2_eg_level_2 = 0
+instrument.op2_eg_level_3 = 0
+instrument.op2_eg_level_4 = 0
+print(instrument.op1_eg_level_1)
 
-sysex_mesage = mido.read_syx_file("./synlib/SynLib_001.syx")
+# sysex_mesage = mido.read_syx_file("./synlib/SynLib_001.syx")
 
-instrument(
-  sysex_mesage,
-  duration=5, # seconds
-  sample_rate=sample_rate,
-)
+# instrument(
+#   sysex_mesage,
+#   duration=5, # seconds
+#   sample_rate=sample_rate,
+# )
 
 
 
@@ -199,13 +208,13 @@ instrument(
 # instrument.op1_eg_rate_3.raw_value = 1
 # instrument.op1_eg_rate_4.raw_value = 1
 # instrument.show_editor()
-program_message = [Message("program_change", program=10)]
-instrument(
-  program_message,
-  duration=5, # seconds
-  sample_rate=sample_rate,
-)
-instrument.show_editor()
+# program_message = [Message("program_change", program=10)]
+# instrument(
+#   program_message,
+#   duration=5, # seconds
+#   sample_rate=sample_rate,
+# )
+# instrument.show_editor()
 # for i, (k, v) in enumerate(paramDict.items()):
 	# instrument.k = v.value
 	# if( (type(v.value) == float) or ( type(v.value) == int )):
@@ -214,7 +223,7 @@ instrument.show_editor()
 		# setattr(instrument, k, v.value)
 		
 
-# instrument.show_editor()
+instrument.show_editor()
 
 # print(instrument.parameters)
 
