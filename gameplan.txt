@@ -1,0 +1,3 @@
+make list of all the default parameter settings
+
+sort out which params should be changed
