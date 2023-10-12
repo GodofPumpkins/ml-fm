@@ -1,0 +1,1 @@
+C:/Users/Max/miniconda3/envs/tf/python.exe -m pip install dawdreamer
