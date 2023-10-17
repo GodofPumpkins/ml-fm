@@ -6,7 +6,8 @@ be passed in as a callback during model training.
 """
 
 import matplotlib.pyplot as plt
-from tensorflow.keras.callbacks import Callback
+import keras.api._v2.keras as keras
+from keras.callbacks import Callback
 
 class TFEpochLogger(Callback):
     """

@@ -14,7 +14,8 @@ Here is an example of extending ``TFEstimatorBase`` to create a simple multi-lay
 perceptron network::
 
         import tensorflow as tf
-        from tensorflow.keras import layers
+        import keras.api._v2.keras as keras
+        from keras import layers
         import spiegelib.estimators import TFEstimatorBase
 
         class MLP(TFEstimatorBase):

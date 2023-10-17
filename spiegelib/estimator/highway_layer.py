@@ -5,9 +5,10 @@ Custom highway layer implemented in Keras.
 Based on implementation by Kadam Parikh: https://github.com/ParikhKadam/Highway-Layer-Keras
 """
 import tensorflow as tf
-from tensorflow.keras import backend as K
-from tensorflow.keras import layers
-from tensorflow.keras.initializers import Constant
+import keras.api._v2.keras as keras
+from keras import backend as K
+from keras import layers
+from keras.initializers import Constant
 
 
 class HighwayLayer(layers.Layer):

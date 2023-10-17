@@ -6,7 +6,8 @@ Based on model proposed by Yee-King et al. [1]_
 """
 
 import tensorflow as tf
-from tensorflow.keras import layers
+import keras.api._v2.keras as keras
+from keras import layers
 
 from spiegelib.estimator.highway_layer import HighwayLayer
 from spiegelib.estimator.tf_estimator_base import TFEstimatorBase
