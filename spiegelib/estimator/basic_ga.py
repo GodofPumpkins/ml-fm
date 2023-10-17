@@ -115,7 +115,7 @@ class BasicGA(EstimatorBase):
 
     def predict(self, input):
         """
-        Run GA prection on input audio target
+        Run GA prediction on input audio target
 
         Args:
             input (:ref:`AudioBuffer <audio_buffer>`): AudioBuffer to use as target
