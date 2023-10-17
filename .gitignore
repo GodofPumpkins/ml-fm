@@ -1,1 +1,6 @@
 /synlib
+/dataset_2op
+/data_simple_FM_mfcc
+/data_simple_FM_stft
+/evaluation
+/saved_models
