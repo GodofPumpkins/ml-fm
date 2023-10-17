@@ -61,11 +61,17 @@ class FFT(FeaturesBase):
         # Determine the length of audio input and determine number of FFT
         # samples to keep.
         buffer = audio.get_audio()
+
+        #if stereo array then convert to vector
+        if(buffer.shape[0]==2):
+            buffer = buffer[0]
+            
+
         n_samples = len(buffer)
         n_output = int((n_samples/2) + 1)
 
         # Run Fast Fourier Transform
-        spectrum = np.fft.fft(audio.get_audio(), n=self.fft_size)[0:n_output]
+        spectrum = np.fft.fft(buffer, n=self.fft_size)[0:n_output]
         features = utils.convert_spectrum(spectrum, self.output, dtype=self.dtype,
                                           complex_dtype=self.complex_dtype)
 
