@@ -45,7 +45,7 @@
   "desc": "LFO SPEED",
   "id": 7,
   "overridden": true,
-  "value": 0.0
+  "value": 0.35353535413742065
  },
  "8": {
   "desc": "LFO DELAY",
@@ -69,7 +69,7 @@
   "desc": "LFO KEY SYNC",
   "id": 11,
   "overridden": true,
-  "value": 0.0
+  "value": 1.0
  },
  "12": {
   "desc": "LFO WAVE",
@@ -87,55 +87,55 @@
   "desc": "P MODE SENS.",
   "id": 14,
   "overridden": true,
-  "value": 0.0
+  "value": 0.4285714328289032
  },
  "15": {
   "desc": "PITCH EG RATE 1",
   "id": 15,
   "overridden": true,
-  "value": 0.0
+  "value": 1.0
  },
  "16": {
   "desc": "PITCH EG RATE 2",
   "id": 16,
   "overridden": true,
-  "value": 0.0
+  "value": 1.0
  },
  "17": {
   "desc": "PITCH EG RATE 3",
   "id": 17,
   "overridden": true,
-  "value": 0.0
+  "value": 1.0
  },
  "18": {
   "desc": "PITCH EG RATE 4",
   "id": 18,
   "overridden": true,
-  "value": 0.0
+  "value": 1.0
  },
  "19": {
   "desc": "PITCH EG LEVEL 1",
   "id": 19,
   "overridden": true,
-  "value": 0.0
+  "value": 0.5050504803657532
  },
  "20": {
   "desc": "PITCH EG LEVEL 2",
   "id": 20,
   "overridden": true,
-  "value": 0.0
+  "value": 0.5050504803657532
  },
  "21": {
   "desc": "PITCH EG LEVEL 3",
   "id": 21,
   "overridden": true,
-  "value": 0.0
+  "value": 0.5050504803657532
  },
  "22": {
   "desc": "PITCH EG LEVEL 4",
   "id": 22,
   "overridden": true,
-  "value": 0.0
+  "value": 0.5050504803657532
  },
  "23": {
   "desc": "OP1 EG RATE 1",
