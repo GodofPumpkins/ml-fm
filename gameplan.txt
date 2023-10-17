@@ -1,3 +1,21 @@
-make list of all the default parameter settings
+todo:
+start writing report
 
-sort out which params should be changed
+
+
+tonight - just let genetic algorithms do their things
+maybe look into parallel processing so I can run multiple cells/dataset generators	
+	
+
+conv nn - generate stft dataset, hopefully won't take massively longer just because of larger size
+check if tf is using gpu, make sure that is all setup for the love of god
+
+
+
+
+
+
+
+
+
+I automate whatever can be automated to be freer to focus on those aspects of music that can’t be automated. The challenge is to figure out which is which. - Laurie Spiegel
