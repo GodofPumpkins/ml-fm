@@ -110,6 +110,8 @@ class SynthVST(SynthBase):
         and render_length_secs to render audio. Plugin must be loaded first.
         """
         if self.loaded_plugin:
+            self.synth.clear_midi()
+            
             self.synth.add_midi_note(
                 self.midi_note,
                 self.midi_velocity,
