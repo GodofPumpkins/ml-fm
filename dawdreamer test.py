@@ -1,14 +1,14 @@
-# import dawdreamer as daw
-# from scipy.io import wavfile
-# SAMPLE_RATE = 44100
-# BUFFER_SIZE = 128
-# DURATION = 5 # in seconds, might reduce later to 3 or 4
+import dawdreamer as daw
+from scipy.io import wavfile
+SAMPLE_RATE = 44100
+BUFFER_SIZE = 128
+DURATION = 5 # in seconds, might reduce later to 3 or 4
 
-# engine = daw.RenderEngine(SAMPLE_RATE, BUFFER_SIZE) 
+engine = daw.RenderEngine(SAMPLE_RATE, BUFFER_SIZE) 
 
-# SYNTH_PLUGIN = "C:/FYP/vst2 dexed/Dexed.dll"
+SYNTH_PLUGIN = "C:/FYP/vst2 dexed/Dexed.dll"
 
-# synth = engine.make_plugin_processor("my_dexed", SYNTH_PLUGIN)
+synth = engine.make_plugin_processor("my_dexed", SYNTH_PLUGIN)
 # assert synth.get_name() == "my_dexed"
 
 # # # write params to text file
