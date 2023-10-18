@@ -158,8 +158,8 @@
  "26": {
   "desc": "OP1 EG RATE 4",
   "id": 26,
-  "overridden": true,
-  "value": 0.9
+  "overridden": false,
+  "value": 1.0
  },
  "27": {
   "desc": "OP1 EG LEVEL 1",
@@ -320,7 +320,7 @@
  "53": {
   "desc": "OP2 OUTPUT LEVEL",
   "id": 53,
-  "overridden": true,
+  "overridden": false,
   "value": 1.0
  },
  "54": {
@@ -405,55 +405,55 @@
   "desc": "OP3 EG RATE 1",
   "id": 67,
   "overridden": true,
-  "value": 0.0
+  "value": 0.9
  },
  "68": {
   "desc": "OP3 EG RATE 2",
   "id": 68,
-  "overridden": true,
-  "value": 0.0
+  "overridden": false,
+  "value": 0.6464646458625793
  },
  "69": {
   "desc": "OP3 EG RATE 3",
   "id": 69,
-  "overridden": true,
-  "value": 0.0
+  "overridden": false,
+  "value": 0.49494948983192444
  },
  "70": {
   "desc": "OP3 EG RATE 4",
   "id": 70,
-  "overridden": true,
-  "value": 0.0
+  "overridden": false,
+  "value": 1.0
  },
  "71": {
   "desc": "OP3 EG LEVEL 1",
   "id": 71,
   "overridden": true,
-  "value": 0.0
+  "value": 1.0
  },
  "72": {
   "desc": "OP3 EG LEVEL 2",
   "id": 72,
-  "overridden": true,
-  "value": 0.0
+  "overridden": false,
+  "value": 1.0
  },
  "73": {
   "desc": "OP3 EG LEVEL 3",
   "id": 73,
-  "overridden": true,
+  "overridden": false,
   "value": 0.0
  },
  "74": {
   "desc": "OP3 EG LEVEL 4",
   "id": 74,
-  "overridden": true,
+  "overridden": false,
   "value": 0.0
  },
  "75": {
   "desc": "OP3 OUTPUT LEVEL",
   "id": 75,
-  "overridden": true,
-  "value": 0.0
+  "overridden": false,
+  "value": 1.0
  },
  "76": {
   "desc": "OP3 MODE",
@@ -464,20 +464,20 @@
  "77": {
   "desc": "OP3 F COARSE",
   "id": 77,
-  "overridden": true,
-  "value": 0.0
+  "overridden": false,
+  "value": 0.06451612710952759
  },
  "78": {
   "desc": "OP3 F FINE",
   "id": 78,
-  "overridden": true,
+  "overridden": false,
   "value": 0.0
  },
  "79": {
   "desc": "OP3 OSC DETUNE",
   "id": 79,
-  "overridden": true,
-  "value": 0.0
+  "overridden": false,
+  "value": 0.5
  },
  "80": {
   "desc": "OP3 BREAK POINT",
@@ -531,61 +531,61 @@
   "desc": "OP3 SWITCH",
   "id": 88,
   "overridden": true,
-  "value": 0.0
+  "value": 1.0
  },
  "89": {
   "desc": "OP4 EG RATE 1",
   "id": 89,
   "overridden": true,
-  "value": 0.0
+  "value": 0.9
  },
  "90": {
   "desc": "OP4 EG RATE 2",
   "id": 90,
-  "overridden": true,
-  "value": 0.0
+  "overridden": false,
+  "value": 0.6464646458625793
  },
  "91": {
   "desc": "OP4 EG RATE 3",
   "id": 91,
-  "overridden": true,
-  "value": 0.0
+  "overridden": false,
+  "value": 0.49494948983192444
  },
  "92": {
   "desc": "OP4 EG RATE 4",
   "id": 92,
-  "overridden": true,
-  "value": 0.0
+  "overridden": false,
+  "value": 1.0
  },
  "93": {
   "desc": "OP4 EG LEVEL 1",
   "id": 93,
   "overridden": true,
-  "value": 0.0
+  "value": 1.0
  },
  "94": {
   "desc": "OP4 EG LEVEL 2",
   "id": 94,
-  "overridden": true,
-  "value": 0.0
+  "overridden": false,
+  "value": 1.0
  },
  "95": {
   "desc": "OP4 EG LEVEL 3",
   "id": 95,
-  "overridden": true,
+  "overridden": false,
   "value": 0.0
  },
  "96": {
   "desc": "OP4 EG LEVEL 4",
   "id": 96,
-  "overridden": true,
+  "overridden": false,
   "value": 0.0
  },
  "97": {
   "desc": "OP4 OUTPUT LEVEL",
   "id": 97,
-  "overridden": true,
-  "value": 0.0
+  "overridden": false,
+  "value": 1.0
  },
  "98": {
   "desc": "OP4 MODE",
@@ -596,20 +596,20 @@
  "99": {
   "desc": "OP4 F COARSE",
   "id": 99,
-  "overridden": true,
+  "overridden": false,
   "value": 0.0
  },
  "100": {
   "desc": "OP4 F FINE",
   "id": 100,
-  "overridden": true,
+  "overridden": false,
   "value": 0.0
  },
  "101": {
   "desc": "OP4 OSC DETUNE",
   "id": 101,
-  "overridden": true,
-  "value": 0.0
+  "overridden": false,
+  "value": 0.5
  },
  "102": {
   "desc": "OP4 BREAK POINT",
@@ -663,7 +663,7 @@
   "desc": "OP4 SWITCH",
   "id": 110,
   "overridden": true,
-  "value": 0.0
+  "value": 1.0
  },
  "111": {
   "desc": "OP5 EG RATE 1",
