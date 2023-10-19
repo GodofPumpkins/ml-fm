@@ -11,7 +11,7 @@ how should I do my demo day? what equipment should I request?
 
 
 report writing:
-
+fix margins etc in the title page
 
 
 implementation:
@@ -38,6 +38,22 @@ https://www.researchgate.net/publication/342379402_Temporal_Envelope_for_Audio_C
 talk about classifying sounds in nsynth for what fm is best at
 
 
+mention having two frequency params - coarse and fine. does that mess up genetic algo?
+
+
+
+appendices:
+make branch/update github
+more results
+
+references:
+spiegelib
+https://www.researchgate.net/publication/342988881_SpiegeLib_An_automatic_synthesizer_programming_library 
+genetic algo attack not being good enough
+mayube this paper: https://www.proquest.com/openview/0a2fc9fe70e0b166ccc87eb741047bd6/1?pq-origsite=gscholar&cbl=18750&diss=y
+make a point about envelopes being important with this source maybe
+https://www.researchgate.net/publication/342379402_Temporal_Envelope_for_Audio_Classification
+
 
 coding:
 still could be useful to do parallel processsing
@@ -49,7 +65,8 @@ conv nn - idk if I should do any more on it? I got the one shitty graph saying i
 maybe try changing hop length or frame size to get more finegrained analysis?
 improve genetic algo?
 
-use real samples? get a few typical sounds, then some real sounds. show spectrogram in report for visual comparison. maybe ask people to rate?
+fix some of the sounds, need to be pitch shifted up to have correct fundamental tone
+maybe ask people to rate?
 
 
 
