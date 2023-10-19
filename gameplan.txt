@@ -1,21 +1,55 @@
-todo:
-start writing report
+things to ask duy:
+ask for advice on report format
+ask later more about contents
+how should I present my findings?
+how should I present appendices/my code? online repository?
+
+how should I do my demo day? what equipment should I request?
 
 
 
-tonight - just let genetic algorithms do their things
-maybe look into parallel processing so I can run multiple cells/dataset generators	
+
+
+report writing:
+
+
+
+implementation:
+complain about pedalboard
+talk about fixing spiegelib
+talk about data pipeline
+talk about cnn structure
+talk about genetic algorithm structure
+
+results:
+put in conv6 results
+
+genetic algo attack not being good enough
+mayube this paper: https://www.proquest.com/openview/0a2fc9fe70e0b166ccc87eb741047bd6/1?pq-origsite=gscholar&cbl=18750&diss=y
+
+put in GA results, should have 2op 4op 6op?
+
+
+conclusions/extensions:
+make a point about envelopes being important with this source maybe
+https://www.researchgate.net/publication/342379402_Temporal_Envelope_for_Audio_Classification
+
+talk about classifying sounds in nsynth for what fm is best at
+
+
+
+coding:
+still could be useful to do parallel processsing
 	
 
-conv nn - generate stft dataset, hopefully won't take massively longer just because of larger size
-check if tf is using gpu, make sure that is all setup for the love of god
+conv nn - idk if I should do any more on it? I got the one shitty graph saying it sucks idk what else to do
+
+improve genetic algo?
+
+use real samples? get a few typical sounds, then some real sounds. show spectrogram in report for visual comparison. maybe ask people to rate?
 
 
 
 
-
-
-
-
-
+good quote: (have ethics section?)
 I automate whatever can be automated to be freer to focus on those aspects of music that can’t be automated. The challenge is to figure out which is which. - Laurie Spiegel
