@@ -15,8 +15,7 @@ report writing:
 
 
 implementation:
-complain about pedalboard
-talk about fixing spiegelib
+maybe talk some more about fixing spiegelib or add in branch
 talk about data pipeline
 talk about cnn structure
 talk about genetic algorithm structure
@@ -29,6 +28,8 @@ mayube this paper: https://www.proquest.com/openview/0a2fc9fe70e0b166ccc87eb7410
 
 put in GA results, should have 2op 4op 6op?
 
+go in depth about a couple of the outputs idk, I have all those pretty spectrograms
+
 
 conclusions/extensions:
 make a point about envelopes being important with this source maybe
@@ -40,10 +41,12 @@ talk about classifying sounds in nsynth for what fm is best at
 
 coding:
 still could be useful to do parallel processsing
+create branch of spiegelib with my changes
 	
 
 conv nn - idk if I should do any more on it? I got the one shitty graph saying it sucks idk what else to do
 
+maybe try changing hop length or frame size to get more finegrained analysis?
 improve genetic algo?
 
 use real samples? get a few typical sounds, then some real sounds. show spectrogram in report for visual comparison. maybe ask people to rate?
