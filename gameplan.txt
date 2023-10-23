@@ -1,13 +1,4 @@
-things to ask duy:
-ask for advice on report format
-ask later more about contents
-how should I present my findings?
-how should I present appendices/my code? online repository?
-
-how should I do my demo day? what equipment should I request?
-
-
-
+email lab people for speakers, specify I need space for keyboard
 
 
 report writing:
@@ -25,6 +16,8 @@ put in conv6 results
 
 genetic algo attack not being good enough
 mayube this paper: https://www.proquest.com/openview/0a2fc9fe70e0b166ccc87eb741047bd6/1?pq-origsite=gscholar&cbl=18750&diss=y
+try using algorithm 5
+
 
 put in GA results, should have 2op 4op 6op?
 
@@ -73,3 +66,75 @@ maybe ask people to rate?
 
 good quote: (have ethics section?)
 I automate whatever can be automated to be freer to focus on those aspects of music that can’t be automated. The challenge is to figure out which is which. - Laurie Spiegel
+
+
+
+
+meeting notes
+skip over lit review, not super important
+
+abstract - background, reearch, methodo, results w numbres, impacts and meanings
+
+include list of figures/figures
+list of acronyms
+
+theory and principles - replace with propsed methodology
+
+
+compare to existing methods/be fair
+
+include lots of results
+
+rationale hehind results
+
+
+results - tell a story
+
+organise into groups of 10 of so
+
+appendix - don't include too much, more in text
+
+
+
+demo day
+2 examiners
+more than 10 percent difference, then deliberate
+
+
+be positive, justify failures
+
+what would I ask??
+
+zhiyong cheng and andrew fleming
+
+zhiyong control/ml, andrew fm and music, not expert in ml
+
+
+
+make them understand porblem, my problem isn't sraightforward
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
