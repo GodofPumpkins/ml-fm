@@ -1,65 +1,23 @@
-email lab people for speakers, specify I need space for keyboard
+TISUEHROIUSDHFSDF
+https://deap.readthedocs.io/en/master/examples/nsga3.html
+important
 
 
-report writing:
-fix margins etc in the title page
-
-
-implementation:
-maybe talk some more about fixing spiegelib or add in branch
-talk about data pipeline
-talk about cnn structure
-talk about genetic algorithm structure
-
-results:
-put in conv6 results
-
-genetic algo attack not being good enough
-mayube this paper: https://www.proquest.com/openview/0a2fc9fe70e0b166ccc87eb741047bd6/1?pq-origsite=gscholar&cbl=18750&diss=y
-try using algorithm 5
-
-
-put in GA results, should have 2op 4op 6op?
-
-go in depth about a couple of the outputs idk, I have all those pretty spectrograms
-
-
-conclusions/extensions:
-make a point about envelopes being important with this source maybe
-https://www.researchgate.net/publication/342379402_Temporal_Envelope_for_Audio_Classification
 
 talk about classifying sounds in nsynth for what fm is best at
 
-
-mention having two frequency params - coarse and fine. does that mess up genetic algo?
+saxophone spectrum, could be good to talk about
+https://pubs.aip.org/asa/jasa/article-abstract/83/5/1900/773641/The-saxophone-spectrumThe-saxophone-spectrum?redirectedFrom=fulltext
+https://www.phys.unsw.edu.au/jw/saxacoustics.html#spectrum
 
 
 
 appendices:
-make branch/update github
-more results
-
-references:
-spiegelib
-https://www.researchgate.net/publication/342988881_SpiegeLib_An_automatic_synthesizer_programming_library 
-genetic algo attack not being good enough
-mayube this paper: https://www.proquest.com/openview/0a2fc9fe70e0b166ccc87eb741047bd6/1?pq-origsite=gscholar&cbl=18750&diss=y
-make a point about envelopes being important with this source maybe
-https://www.researchgate.net/publication/342379402_Temporal_Envelope_for_Audio_Classification
-
+update spiegelib github branch
+add more results, maybe mean/std dev for each model
 
 coding:
-still could be useful to do parallel processsing
 create branch of spiegelib with my changes
-	
-
-conv nn - idk if I should do any more on it? I got the one shitty graph saying it sucks idk what else to do
-
-maybe try changing hop length or frame size to get more finegrained analysis?
-improve genetic algo?
-
-fix some of the sounds, need to be pitch shifted up to have correct fundamental tone
-maybe ask people to rate?
 
 
 
@@ -114,6 +72,10 @@ zhiyong control/ml, andrew fm and music, not expert in ml
 make them understand porblem, my problem isn't sraightforward
 
 
+
+
+
+what code snippets do I want to include? would definitely help bulk up paper and should be useful. should transfer final result to single file
 
 
 
