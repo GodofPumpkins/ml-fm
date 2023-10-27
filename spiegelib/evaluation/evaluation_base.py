@@ -89,8 +89,8 @@ class EvaluationBase(ABC):
         self.stats = {}
         self.scores = {}
         for i in range(len(self.targets)):
-            target_estmations = [est[i] for est in self.estimations]
-            results = self.evaluate_target(self.targets[i], target_estmations)
+            target_estimations = [est[i] for est in self.estimations]
+            results = self.evaluate_target(self.targets[i], target_estimations)
             results_dict = {}
             for j in range(len(results)):
                 results_dict['source_%s' % j] = results[j]
@@ -158,7 +158,7 @@ class EvaluationBase(ABC):
             print('No stats to save! Did you run evaluation?')
 
 
-    def plot_hist(self, sources, metric, bins=None, clip_upper=None, **kwargs):
+    def plot_hist(self, sources, metric, bins=None, clip_upper=None, xlabel="Mean Absolute Error"):
         """
         Plot a histogram of results of evaluation. Uses Matplotlib.
 
@@ -191,7 +191,10 @@ class EvaluationBase(ABC):
             values = np.clip(values, np.min(values), clip_upper)
 
         plt.hist(np.array(values), bins,
-                 alpha=0.9, edgecolor='black', **kwargs)
+                 alpha=0.9, edgecolor='black')
+        
+        plt.xlabel(xlabel)
+        plt.ylabel("Number")
 
 
     def verify_input_list(self, input_list):
