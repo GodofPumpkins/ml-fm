@@ -1,0 +1,932 @@
+{
+ "0": {
+  "desc": "Cutoff",
+  "id": 0,
+  "overridden": true,
+  "value": 1.0
+ },
+ "1": {
+  "desc": "Resonance",
+  "id": 1,
+  "overridden": true,
+  "value": 0.0
+ },
+ "2": {
+  "desc": "Output",
+  "id": 2,
+  "overridden": true,
+  "value": 1.0
+ },
+ "3": {
+  "desc": "MASTER TUNE ADJ",
+  "id": 3,
+  "overridden": true,
+  "value": 0.5
+ },
+ "4": {
+  "desc": "ALGORITHM",
+  "id": 4,
+  "overridden": true,
+  "value": 0.126
+ },
+ "5": {
+  "desc": "FEEDBACK",
+  "id": 5,
+  "overridden": false,
+  "value": 0.20991745878633336
+ },
+ "6": {
+  "desc": "OSC KEY SYNC",
+  "id": 6,
+  "overridden": true,
+  "value": 1.0
+ },
+ "7": {
+  "desc": "LFO SPEED",
+  "id": 7,
+  "overridden": true,
+  "value": 0.35353535413742065
+ },
+ "8": {
+  "desc": "LFO DELAY",
+  "id": 8,
+  "overridden": true,
+  "value": 0.0
+ },
+ "9": {
+  "desc": "LFO PM DEPTH",
+  "id": 9,
+  "overridden": true,
+  "value": 0.0
+ },
+ "10": {
+  "desc": "LFO AM DEPTH",
+  "id": 10,
+  "overridden": true,
+  "value": 0.0
+ },
+ "11": {
+  "desc": "LFO KEY SYNC",
+  "id": 11,
+  "overridden": true,
+  "value": 1.0
+ },
+ "12": {
+  "desc": "LFO WAVE",
+  "id": 12,
+  "overridden": true,
+  "value": 0.0
+ },
+ "13": {
+  "desc": "MIDDLE C",
+  "id": 13,
+  "overridden": true,
+  "value": 0.5
+ },
+ "14": {
+  "desc": "P MODE SENS.",
+  "id": 14,
+  "overridden": true,
+  "value": 0.4285714328289032
+ },
+ "15": {
+  "desc": "PITCH EG RATE 1",
+  "id": 15,
+  "overridden": true,
+  "value": 1.0
+ },
+ "16": {
+  "desc": "PITCH EG RATE 2",
+  "id": 16,
+  "overridden": true,
+  "value": 1.0
+ },
+ "17": {
+  "desc": "PITCH EG RATE 3",
+  "id": 17,
+  "overridden": true,
+  "value": 1.0
+ },
+ "18": {
+  "desc": "PITCH EG RATE 4",
+  "id": 18,
+  "overridden": true,
+  "value": 1.0
+ },
+ "19": {
+  "desc": "PITCH EG LEVEL 1",
+  "id": 19,
+  "overridden": true,
+  "value": 0.5050504803657532
+ },
+ "20": {
+  "desc": "PITCH EG LEVEL 2",
+  "id": 20,
+  "overridden": true,
+  "value": 0.5050504803657532
+ },
+ "21": {
+  "desc": "PITCH EG LEVEL 3",
+  "id": 21,
+  "overridden": true,
+  "value": 0.5050504803657532
+ },
+ "22": {
+  "desc": "PITCH EG LEVEL 4",
+  "id": 22,
+  "overridden": true,
+  "value": 0.5050504803657532
+ },
+ "23": {
+  "desc": "OP1 EG RATE 1",
+  "id": 23,
+  "overridden": true,
+  "value": 0.9
+ },
+ "24": {
+  "desc": "OP1 EG RATE 2",
+  "id": 24,
+  "overridden": false,
+  "value": 0.02114638323684693
+ },
+ "25": {
+  "desc": "OP1 EG RATE 3",
+  "id": 25,
+  "overridden": false,
+  "value": 0.46146902961530206
+ },
+ "26": {
+  "desc": "OP1 EG RATE 4",
+  "id": 26,
+  "overridden": false,
+  "value": 0.029582579980777804
+ },
+ "27": {
+  "desc": "OP1 EG LEVEL 1",
+  "id": 27,
+  "overridden": true,
+  "value": 1.0
+ },
+ "28": {
+  "desc": "OP1 EG LEVEL 2",
+  "id": 28,
+  "overridden": false,
+  "value": 0.7442919522533443
+ },
+ "29": {
+  "desc": "OP1 EG LEVEL 3",
+  "id": 29,
+  "overridden": false,
+  "value": 0.552608334292433
+ },
+ "30": {
+  "desc": "OP1 EG LEVEL 4",
+  "id": 30,
+  "overridden": false,
+  "value": 0.615649820485958
+ },
+ "31": {
+  "desc": "OP1 OUTPUT LEVEL",
+  "id": 31,
+  "overridden": false,
+  "value": 0.27070988457424255
+ },
+ "32": {
+  "desc": "OP1 MODE",
+  "id": 32,
+  "overridden": true,
+  "value": 0.0
+ },
+ "33": {
+  "desc": "OP1 F COARSE",
+  "id": 33,
+  "overridden": false,
+  "value": 0.1057058788131431
+ },
+ "34": {
+  "desc": "OP1 F FINE",
+  "id": 34,
+  "overridden": false,
+  "value": 0.41413522655039237
+ },
+ "35": {
+  "desc": "OP1 OSC DETUNE",
+  "id": 35,
+  "overridden": false,
+  "value": 0.008271745643034935
+ },
+ "36": {
+  "desc": "OP1 BREAK POINT",
+  "id": 36,
+  "overridden": true,
+  "value": 0.0
+ },
+ "37": {
+  "desc": "OP1 L SCALE DEPTH",
+  "id": 37,
+  "overridden": true,
+  "value": 0.0
+ },
+ "38": {
+  "desc": "OP1 R SCALE DEPTH",
+  "id": 38,
+  "overridden": true,
+  "value": 0.0
+ },
+ "39": {
+  "desc": "OP1 L KEY SCALE",
+  "id": 39,
+  "overridden": true,
+  "value": 0.0
+ },
+ "40": {
+  "desc": "OP1 R KEY SCALE",
+  "id": 40,
+  "overridden": true,
+  "value": 0.0
+ },
+ "41": {
+  "desc": "OP1 RATE SCALING",
+  "id": 41,
+  "overridden": true,
+  "value": 0.0
+ },
+ "42": {
+  "desc": "OP1 A MOD SENS.",
+  "id": 42,
+  "overridden": true,
+  "value": 0.0
+ },
+ "43": {
+  "desc": "OP1 KEY VELOCITY",
+  "id": 43,
+  "overridden": true,
+  "value": 0.0
+ },
+ "44": {
+  "desc": "OP1 SWITCH",
+  "id": 44,
+  "overridden": true,
+  "value": 1.0
+ },
+ "45": {
+  "desc": "OP2 EG RATE 1",
+  "id": 45,
+  "overridden": true,
+  "value": 0.9
+ },
+ "46": {
+  "desc": "OP2 EG RATE 2",
+  "id": 46,
+  "overridden": false,
+  "value": 0.18629784257716958
+ },
+ "47": {
+  "desc": "OP2 EG RATE 3",
+  "id": 47,
+  "overridden": false,
+  "value": 0.030933039493920535
+ },
+ "48": {
+  "desc": "OP2 EG RATE 4",
+  "id": 48,
+  "overridden": false,
+  "value": 0.2065187149714468
+ },
+ "49": {
+  "desc": "OP2 EG LEVEL 1",
+  "id": 49,
+  "overridden": true,
+  "value": 1.0
+ },
+ "50": {
+  "desc": "OP2 EG LEVEL 2",
+  "id": 50,
+  "overridden": false,
+  "value": 0.5004022396568253
+ },
+ "51": {
+  "desc": "OP2 EG LEVEL 3",
+  "id": 51,
+  "overridden": false,
+  "value": 0.6461294521133951
+ },
+ "52": {
+  "desc": "OP2 EG LEVEL 4",
+  "id": 52,
+  "overridden": false,
+  "value": 0.6405736094608474
+ },
+ "53": {
+  "desc": "OP2 OUTPUT LEVEL",
+  "id": 53,
+  "overridden": false,
+  "value": 0.5562785426087389
+ },
+ "54": {
+  "desc": "OP2 MODE",
+  "id": 54,
+  "overridden": true,
+  "value": 0.0
+ },
+ "55": {
+  "desc": "OP2 F COARSE",
+  "id": 55,
+  "overridden": false,
+  "value": 0.44398365134650103
+ },
+ "56": {
+  "desc": "OP2 F FINE",
+  "id": 56,
+  "overridden": false,
+  "value": 0.7338334691976803
+ },
+ "57": {
+  "desc": "OP2 OSC DETUNE",
+  "id": 57,
+  "overridden": false,
+  "value": 0.7794304033186574
+ },
+ "58": {
+  "desc": "OP2 BREAK POINT",
+  "id": 58,
+  "overridden": true,
+  "value": 0.0
+ },
+ "59": {
+  "desc": "OP2 L SCALE DEPTH",
+  "id": 59,
+  "overridden": true,
+  "value": 0.0
+ },
+ "60": {
+  "desc": "OP2 R SCALE DEPTH",
+  "id": 60,
+  "overridden": true,
+  "value": 0.0
+ },
+ "61": {
+  "desc": "OP2 L KEY SCALE",
+  "id": 61,
+  "overridden": true,
+  "value": 0.0
+ },
+ "62": {
+  "desc": "OP2 R KEY SCALE",
+  "id": 62,
+  "overridden": true,
+  "value": 0.0
+ },
+ "63": {
+  "desc": "OP2 RATE SCALING",
+  "id": 63,
+  "overridden": true,
+  "value": 0.0
+ },
+ "64": {
+  "desc": "OP2 A MOD SENS.",
+  "id": 64,
+  "overridden": true,
+  "value": 0.0
+ },
+ "65": {
+  "desc": "OP2 KEY VELOCITY",
+  "id": 65,
+  "overridden": true,
+  "value": 0.0
+ },
+ "66": {
+  "desc": "OP2 SWITCH",
+  "id": 66,
+  "overridden": true,
+  "value": 1.0
+ },
+ "67": {
+  "desc": "OP3 EG RATE 1",
+  "id": 67,
+  "overridden": true,
+  "value": 0.9
+ },
+ "68": {
+  "desc": "OP3 EG RATE 2",
+  "id": 68,
+  "overridden": false,
+  "value": 0.035891464338974326
+ },
+ "69": {
+  "desc": "OP3 EG RATE 3",
+  "id": 69,
+  "overridden": false,
+  "value": 0.6274402618600567
+ },
+ "70": {
+  "desc": "OP3 EG RATE 4",
+  "id": 70,
+  "overridden": false,
+  "value": 0.298697063960398
+ },
+ "71": {
+  "desc": "OP3 EG LEVEL 1",
+  "id": 71,
+  "overridden": true,
+  "value": 1.0
+ },
+ "72": {
+  "desc": "OP3 EG LEVEL 2",
+  "id": 72,
+  "overridden": false,
+  "value": 0.49052869375698305
+ },
+ "73": {
+  "desc": "OP3 EG LEVEL 3",
+  "id": 73,
+  "overridden": false,
+  "value": 0.7366026793442382
+ },
+ "74": {
+  "desc": "OP3 EG LEVEL 4",
+  "id": 74,
+  "overridden": false,
+  "value": 0.5813651561460408
+ },
+ "75": {
+  "desc": "OP3 OUTPUT LEVEL",
+  "id": 75,
+  "overridden": false,
+  "value": 0.6612278732588689
+ },
+ "76": {
+  "desc": "OP3 MODE",
+  "id": 76,
+  "overridden": true,
+  "value": 0.0
+ },
+ "77": {
+  "desc": "OP3 F COARSE",
+  "id": 77,
+  "overridden": false,
+  "value": 0.5875578789101439
+ },
+ "78": {
+  "desc": "OP3 F FINE",
+  "id": 78,
+  "overridden": false,
+  "value": 0.025511969362831524
+ },
+ "79": {
+  "desc": "OP3 OSC DETUNE",
+  "id": 79,
+  "overridden": false,
+  "value": 0.8502645371111134
+ },
+ "80": {
+  "desc": "OP3 BREAK POINT",
+  "id": 80,
+  "overridden": true,
+  "value": 0.0
+ },
+ "81": {
+  "desc": "OP3 L SCALE DEPTH",
+  "id": 81,
+  "overridden": true,
+  "value": 0.0
+ },
+ "82": {
+  "desc": "OP3 R SCALE DEPTH",
+  "id": 82,
+  "overridden": true,
+  "value": 0.0
+ },
+ "83": {
+  "desc": "OP3 L KEY SCALE",
+  "id": 83,
+  "overridden": true,
+  "value": 0.0
+ },
+ "84": {
+  "desc": "OP3 R KEY SCALE",
+  "id": 84,
+  "overridden": true,
+  "value": 0.0
+ },
+ "85": {
+  "desc": "OP3 RATE SCALING",
+  "id": 85,
+  "overridden": true,
+  "value": 0.0
+ },
+ "86": {
+  "desc": "OP3 A MOD SENS.",
+  "id": 86,
+  "overridden": true,
+  "value": 0.0
+ },
+ "87": {
+  "desc": "OP3 KEY VELOCITY",
+  "id": 87,
+  "overridden": true,
+  "value": 0.0
+ },
+ "88": {
+  "desc": "OP3 SWITCH",
+  "id": 88,
+  "overridden": true,
+  "value": 1.0
+ },
+ "89": {
+  "desc": "OP4 EG RATE 1",
+  "id": 89,
+  "overridden": true,
+  "value": 0.9
+ },
+ "90": {
+  "desc": "OP4 EG RATE 2",
+  "id": 90,
+  "overridden": false,
+  "value": 0.10778795028257387
+ },
+ "91": {
+  "desc": "OP4 EG RATE 3",
+  "id": 91,
+  "overridden": false,
+  "value": 0.11335842954430819
+ },
+ "92": {
+  "desc": "OP4 EG RATE 4",
+  "id": 92,
+  "overridden": false,
+  "value": 0.18515028143051016
+ },
+ "93": {
+  "desc": "OP4 EG LEVEL 1",
+  "id": 93,
+  "overridden": true,
+  "value": 1.0
+ },
+ "94": {
+  "desc": "OP4 EG LEVEL 2",
+  "id": 94,
+  "overridden": false,
+  "value": 0.40856180411041393
+ },
+ "95": {
+  "desc": "OP4 EG LEVEL 3",
+  "id": 95,
+  "overridden": false,
+  "value": 0.8874114220192287
+ },
+ "96": {
+  "desc": "OP4 EG LEVEL 4",
+  "id": 96,
+  "overridden": false,
+  "value": 0.561768782267707
+ },
+ "97": {
+  "desc": "OP4 OUTPUT LEVEL",
+  "id": 97,
+  "overridden": false,
+  "value": 0.8077403381984998
+ },
+ "98": {
+  "desc": "OP4 MODE",
+  "id": 98,
+  "overridden": true,
+  "value": 0.0
+ },
+ "99": {
+  "desc": "OP4 F COARSE",
+  "id": 99,
+  "overridden": false,
+  "value": 0.4017850639017842
+ },
+ "100": {
+  "desc": "OP4 F FINE",
+  "id": 100,
+  "overridden": false,
+  "value": 0.12272334992360981
+ },
+ "101": {
+  "desc": "OP4 OSC DETUNE",
+  "id": 101,
+  "overridden": false,
+  "value": 0.6976082539564484
+ },
+ "102": {
+  "desc": "OP4 BREAK POINT",
+  "id": 102,
+  "overridden": true,
+  "value": 0.0
+ },
+ "103": {
+  "desc": "OP4 L SCALE DEPTH",
+  "id": 103,
+  "overridden": true,
+  "value": 0.0
+ },
+ "104": {
+  "desc": "OP4 R SCALE DEPTH",
+  "id": 104,
+  "overridden": true,
+  "value": 0.0
+ },
+ "105": {
+  "desc": "OP4 L KEY SCALE",
+  "id": 105,
+  "overridden": true,
+  "value": 0.0
+ },
+ "106": {
+  "desc": "OP4 R KEY SCALE",
+  "id": 106,
+  "overridden": true,
+  "value": 0.0
+ },
+ "107": {
+  "desc": "OP4 RATE SCALING",
+  "id": 107,
+  "overridden": true,
+  "value": 0.0
+ },
+ "108": {
+  "desc": "OP4 A MOD SENS.",
+  "id": 108,
+  "overridden": true,
+  "value": 0.0
+ },
+ "109": {
+  "desc": "OP4 KEY VELOCITY",
+  "id": 109,
+  "overridden": true,
+  "value": 0.0
+ },
+ "110": {
+  "desc": "OP4 SWITCH",
+  "id": 110,
+  "overridden": true,
+  "value": 1.0
+ },
+ "111": {
+  "desc": "OP5 EG RATE 1",
+  "id": 111,
+  "overridden": true,
+  "value": 0.9
+ },
+ "112": {
+  "desc": "OP5 EG RATE 2",
+  "id": 112,
+  "overridden": false,
+  "value": 0.26618270609662503
+ },
+ "113": {
+  "desc": "OP5 EG RATE 3",
+  "id": 113,
+  "overridden": false,
+  "value": 0.35126948819761505
+ },
+ "114": {
+  "desc": "OP5 EG RATE 4",
+  "id": 114,
+  "overridden": false,
+  "value": 0.403718796147191
+ },
+ "115": {
+  "desc": "OP5 EG LEVEL 1",
+  "id": 115,
+  "overridden": true,
+  "value": 1.0
+ },
+ "116": {
+  "desc": "OP5 EG LEVEL 2",
+  "id": 116,
+  "overridden": false,
+  "value": 0.6478485023446003
+ },
+ "117": {
+  "desc": "OP5 EG LEVEL 3",
+  "id": 117,
+  "overridden": false,
+  "value": 0.7355924576620856
+ },
+ "118": {
+  "desc": "OP5 EG LEVEL 4",
+  "id": 118,
+  "overridden": false,
+  "value": 0.8180850870381251
+ },
+ "119": {
+  "desc": "OP5 OUTPUT LEVEL",
+  "id": 119,
+  "overridden": false,
+  "value": 0.767433787122485
+ },
+ "120": {
+  "desc": "OP5 MODE",
+  "id": 120,
+  "overridden": true,
+  "value": 0.0
+ },
+ "121": {
+  "desc": "OP5 F COARSE",
+  "id": 121,
+  "overridden": false,
+  "value": 0.058200109109374974
+ },
+ "122": {
+  "desc": "OP5 F FINE",
+  "id": 122,
+  "overridden": false,
+  "value": 0.003132755899088014
+ },
+ "123": {
+  "desc": "OP5 OSC DETUNE",
+  "id": 123,
+  "overridden": false,
+  "value": 0.743429951981959
+ },
+ "124": {
+  "desc": "OP5 BREAK POINT",
+  "id": 124,
+  "overridden": true,
+  "value": 0.0
+ },
+ "125": {
+  "desc": "OP5 L SCALE DEPTH",
+  "id": 125,
+  "overridden": true,
+  "value": 0.0
+ },
+ "126": {
+  "desc": "OP5 R SCALE DEPTH",
+  "id": 126,
+  "overridden": true,
+  "value": 0.0
+ },
+ "127": {
+  "desc": "OP5 L KEY SCALE",
+  "id": 127,
+  "overridden": true,
+  "value": 0.0
+ },
+ "128": {
+  "desc": "OP5 R KEY SCALE",
+  "id": 128,
+  "overridden": true,
+  "value": 0.0
+ },
+ "129": {
+  "desc": "OP5 RATE SCALING",
+  "id": 129,
+  "overridden": true,
+  "value": 0.0
+ },
+ "130": {
+  "desc": "OP5 A MOD SENS.",
+  "id": 130,
+  "overridden": true,
+  "value": 0.0
+ },
+ "131": {
+  "desc": "OP5 KEY VELOCITY",
+  "id": 131,
+  "overridden": true,
+  "value": 0.0
+ },
+ "132": {
+  "desc": "OP5 SWITCH",
+  "id": 132,
+  "overridden": true,
+  "value": 1.0
+ },
+ "133": {
+  "desc": "OP6 EG RATE 1",
+  "id": 133,
+  "overridden": true,
+  "value": 0.9
+ },
+ "134": {
+  "desc": "OP6 EG RATE 2",
+  "id": 134,
+  "overridden": false,
+  "value": 0.04674714263672106
+ },
+ "135": {
+  "desc": "OP6 EG RATE 3",
+  "id": 135,
+  "overridden": false,
+  "value": 0.8841327150219852
+ },
+ "136": {
+  "desc": "OP6 EG RATE 4",
+  "id": 136,
+  "overridden": false,
+  "value": 0.1692047532517542
+ },
+ "137": {
+  "desc": "OP6 EG LEVEL 1",
+  "id": 137,
+  "overridden": true,
+  "value": 1.0
+ },
+ "138": {
+  "desc": "OP6 EG LEVEL 2",
+  "id": 138,
+  "overridden": false,
+  "value": 0.09914102836745309
+ },
+ "139": {
+  "desc": "OP6 EG LEVEL 3",
+  "id": 139,
+  "overridden": false,
+  "value": 0.24359682318439607
+ },
+ "140": {
+  "desc": "OP6 EG LEVEL 4",
+  "id": 140,
+  "overridden": false,
+  "value": 0.507557139508315
+ },
+ "141": {
+  "desc": "OP6 OUTPUT LEVEL",
+  "id": 141,
+  "overridden": false,
+  "value": 0.6805016136228191
+ },
+ "142": {
+  "desc": "OP6 MODE",
+  "id": 142,
+  "overridden": true,
+  "value": 0.0
+ },
+ "143": {
+  "desc": "OP6 F COARSE",
+  "id": 143,
+  "overridden": false,
+  "value": 0.2961257983609594
+ },
+ "144": {
+  "desc": "OP6 F FINE",
+  "id": 144,
+  "overridden": false,
+  "value": 0.5444426778573956
+ },
+ "145": {
+  "desc": "OP6 OSC DETUNE",
+  "id": 145,
+  "overridden": false,
+  "value": 0.769396735220496
+ },
+ "146": {
+  "desc": "OP6 BREAK POINT",
+  "id": 146,
+  "overridden": true,
+  "value": 0.0
+ },
+ "147": {
+  "desc": "OP6 L SCALE DEPTH",
+  "id": 147,
+  "overridden": true,
+  "value": 0.0
+ },
+ "148": {
+  "desc": "OP6 R SCALE DEPTH",
+  "id": 148,
+  "overridden": true,
+  "value": 0.0
+ },
+ "149": {
+  "desc": "OP6 L KEY SCALE",
+  "id": 149,
+  "overridden": true,
+  "value": 0.0
+ },
+ "150": {
+  "desc": "OP6 R KEY SCALE",
+  "id": 150,
+  "overridden": true,
+  "value": 0.0
+ },
+ "151": {
+  "desc": "OP6 RATE SCALING",
+  "id": 151,
+  "overridden": true,
+  "value": 0.0
+ },
+ "152": {
+  "desc": "OP6 A MOD SENS.",
+  "id": 152,
+  "overridden": true,
+  "value": 0.0
+ },
+ "153": {
+  "desc": "OP6 KEY VELOCITY",
+  "id": 153,
+  "overridden": true,
+  "value": 0.0
+ },
+ "154": {
+  "desc": "OP6 SWITCH",
+  "id": 154,
+  "overridden": true,
+  "value": 1.0
+ }
+}
